@@ -1,20 +1,8 @@
 <?php
 include('partials/header.php');
-?>
+?>    
     
-    
-    
-    <?php
-    $pages = array("Donov"=>"index.php",
-    "Portfolio"=>"portfolio.php",
-    "q&a"=> "qna.php"
-    "Kontakt" => "kontakt.php"
-  );
-    foreach($pages as $page_name => $page_url)
-    {
-      echo('<li><a href="'.$page_url'">'.$page_name.'</a></li>');
-    }
-    ?>
+  
     <main>
       <section class="slides-container">
         <div class="slide fade">
